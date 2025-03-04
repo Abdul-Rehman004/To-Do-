@@ -1,2 +1,8 @@
-node_modules
+node_modules/
+To-Do-/
+
 .env
+fastify/
+package.json
+package-lock.json
+.gitignore
