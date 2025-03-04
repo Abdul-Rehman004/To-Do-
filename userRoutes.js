@@ -5,13 +5,13 @@ const userRoutes=   (app)=> {
     app.post('/create-todo', createList)
     
     
-    app.put('/update-todo', updateList)
+    app.put('/update-todo/:id', updateList)
     
     app.get('/get-all-todos', getAllList)
     
-    app.get('/get-one-todo', getOneList)
+    app.get('/get-one-todo/:id', getOneList)
     
-    app.delete('/delete-todo', deleteList)
+    app.delete('/delete-todo/:id', deleteList)
   }
   
   module.exports = userRoutes; 
